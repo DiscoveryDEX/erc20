@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract DiscoveryDEXToken is ERC20, Ownable {
 
-    constructor(uint crowdsaleReservesAmount) ERC20("DiscoveryDEX", "DDEX") {
+    constructor(uint crowdsaleReservesAmount) ERC20("DiscoveryDEX", "DISCD") {
         _mint(msg.sender, crowdsaleReservesAmount);
     }
     
